@@ -1,0 +1,23 @@
+html {
+  font-size: 18px;
+}
+body{
+  font-family: helvetica;
+}
+.logo {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+}
+.main-banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  display: flex;
+}
+.main-banner .new {
+  background-color: black;
+  color: white;
+  font-family: helvetica;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
