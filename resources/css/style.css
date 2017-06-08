@@ -49,6 +49,8 @@ h1, h4 {
   font-size: 2rem;
   margin: 0.25rem 0;
 }
+
+/* Navigation Bar -----------------------*/
 nav {
   background-color: firebrick;
   color: white;
@@ -59,17 +61,34 @@ nav ul {
   justify-content: space-between;
   padding: 0.75rem 0;
 }
+
 /* Store Section ------------------------*/
-.product-grid {
-  padding: 3rem;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: space-around;
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
 }
-.product-grid img {
-  height: 9rem;
+.item {
+  width: 30%;
+  display: block;
+}
+.item-pic {
   border: 4px solid black;
-  padding: 2rem;
+  padding: 2rem 0;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-pic img {
+  max-width: 8rem;
+}
+.info {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 /* Contact Section ----------------------*/
