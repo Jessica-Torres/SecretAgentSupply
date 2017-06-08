@@ -45,3 +45,32 @@ body{
   padding-bottom: 0.75rem;
   margin: auto;
 }
+.product-grid {
+  padding: 3rem;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.product-grid img {
+  height: 9rem;
+  border: 4px solid black;
+  padding: 2rem;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 4rem;
+}
+.contact-top {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
