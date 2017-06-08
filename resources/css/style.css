@@ -9,9 +9,15 @@ body{
   color: white;
   font-size: 1rem;
 }
+.logo img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
 .main-banner {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
   display: flex;
+  height: 25rem;
 }
 .main-banner .new {
   background-color: black;
@@ -20,4 +26,12 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.new p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.new h2 {
+  font-size: 2rem;
+  font-weight: bold;
 }
