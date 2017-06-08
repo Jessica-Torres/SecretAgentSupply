@@ -61,6 +61,9 @@ nav ul {
   justify-content: space-between;
   padding: 0.75rem 0;
 }
+.mobile-nav {
+  display: none;
+}
 
 /* Store Section ------------------------*/
 .items {
@@ -115,4 +118,59 @@ footer {
   padding: 5rem 0;
   margin-top: 4rem;
   display: block;
+}
+
+/*  Tablet Query -----------------------------*/
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  nav ul {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+  .item {
+    width: 47%;
+  }
+  .item.glasses {
+    display: none;
+  }
+}
+
+/* Mobile Query -------------------------------*/
+@media only screen and (max-width: 480px) {
+  .main-banner {
+    height: 15rem;
+  }
+  .headline {
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+  .headline h4 {
+    font-size: 0.77rem;
+  }
+  .headline h1 {
+    font-size: 1rem;
+  }
+  .item {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .item.watch {
+    display: none;
+  }
+  .contact {
+    display: block;
+  }
+  .contact-info {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+  }
+  footer {
+    text-align: center;
+  }
 }
