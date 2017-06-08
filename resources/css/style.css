@@ -35,3 +35,13 @@ body{
   font-size: 2rem;
   font-weight: bold;
 }
+.menu {
+  background-color: firebrick;
+  color: white;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  margin: auto;
+}
