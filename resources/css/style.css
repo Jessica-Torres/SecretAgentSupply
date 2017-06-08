@@ -3,48 +3,63 @@ html {
 }
 body{
   font-family: helvetica;
+  margin: auto;
 }
+h1, h4 {
+  font-weight: bold;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* Header --------------------------------*/
 .logo {
   background-color: black;
   color: white;
   font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
 }
 .logo img {
   height: 1.5rem;
   padding-left: 0.5rem;
   padding-right: 1rem;
 }
+
+/* Main Banner-------------------------- */
 .main-banner {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
   display: flex;
   height: 25rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: block;
 }
-.main-banner .new {
+.headline {
   background-color: black;
   color: white;
-  font-family: helvetica;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+  display: block;
 }
-.new p {
-  font-size: 1rem;
-  font-weight: bold;
-}
-.new h2 {
+.headline h1 {
   font-size: 2rem;
-  font-weight: bold;
+  margin: 0.25rem 0;
 }
-.menu {
+nav {
   background-color: firebrick;
   color: white;
-  width: 100%;
-  display: inline-flex;
-  justify-content: space-around;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  margin: auto;
+  display: block;
 }
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+/* Store Section ------------------------*/
 .product-grid {
   padding: 3rem;
   display: inline-flex;
@@ -56,6 +71,8 @@ body{
   border: 4px solid black;
   padding: 2rem;
 }
+
+/* Contact Section ----------------------*/
 .contact {
   display: flex;
   justify-content: space-around;
@@ -66,6 +83,8 @@ body{
   color: white;
   padding: 1rem 2rem;
 }
+
+/* footer Section -----------------------*/
 footer {
   background-color: black;
   color: white;
